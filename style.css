@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -75,19 +75,30 @@ body{
  
 }
 
+.sign-up-btn{
+    /* border: 1px solid red; */
+    border: 1px solid #868e96;
+    padding: 1em;
+   
+}
+
 .logo{
      width: 10%;
     /* min-width: 10%; */
     /* border: 2px solid black; */
-   
+    flex-direction: row;
     
 }
 
 .spotify-text{
  
     font-weight: bolder;
-    margin-top: 1.5em;
+    /* margin-top: 1em; */
      
 }
 
+
+.continue{
+    font-weight: bold;
+}
  
